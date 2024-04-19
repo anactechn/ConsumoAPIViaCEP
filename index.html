@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Buscar Endereço</title>
+</head>
+<body>
+    <!-- Consulta de CEP -->
+    <div id="containerBE">
+        <section>
+            <h2>Consulta de CEP</h2>
+            <input type="text" id="cepConsulta" placeholder="Digite o CEP">
+            <button onclick="consultarCEP()">Consultar</button>
+            <div id="resultadoCEP"></div>
+        </section>
+        <section>
+            <h2>Busca por Logradouro</h2>
+            <input type="text" id="uf" placeholder="UF">
+            <input type="text" id="cidade" placeholder="Cidade">
+            <input type="text" id="logradouro" placeholder="Logradouro">
+            <button onclick="buscarLogradouro()">Buscar</button>
+            <div id="resultadoLogradouro"></div>
+        </section>
+        <a href="CalcFrete.html">Calcular Frete</a>
+    </div>
+</body>
+</html>
